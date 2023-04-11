@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo.unity
+    guid: bbe150e1a43931c44bfedddbd123e27a
   m_configObjects: {}
