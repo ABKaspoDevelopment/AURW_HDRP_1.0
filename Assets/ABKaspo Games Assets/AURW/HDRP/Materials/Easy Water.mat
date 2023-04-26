@@ -34,8 +34,8 @@ Material:
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _NORMALMAP_TANGENT_SPACE
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -89,15 +89,14 @@ Material:
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
-    - _Bigger_Normal_Tiling: 2
-    - _Bigger_Normal_Tiling_Divider_From_Tiling: 2
+    - _Bigger_Tiling: 10
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 0
     - _CullModeForward: 0
-    - _Depth: 0.02
+    - _Depth: 0.03
     - _DepthOffsetEnable: 0
-    - _Depth_Strength: 1
+    - _Depth_Strength: 4
     - _DiffusionProfileHash: 0
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
@@ -109,7 +108,7 @@ Material:
     - _FRESNEL_EFFECT: 1
     - _Fresnel_Power: 1
     - _NOISE: 1
-    - _Noise_Scale: 2
+    - _Noise_Scale: 5
     - _Normal_Strength: 0.75
     - _OpaqueCullMode: 2
     - _RayTracing: 0
@@ -119,7 +118,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _Smoothness: 0.95
-    - _Speed: 1
+    - _Speed: 0.5
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -143,24 +142,23 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _USE_SAME_NORMAL: 0
-    - _Under_Water_Effect: 2
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _Color_A: {r: 0, g: 0.24999991, b: 1, a: 0.69803923}
-    - _Color_B: {r: 0, g: 0.5, b: 1, a: 0.69803923}
-    - _Color_C: {r: 0, g: 0.5490196, b: 0.6980392, a: 0.9019608}
+    - _Color_A: {r: 0, g: 0.31189477, b: 0.7254902, a: 0.9019608}
+    - _Color_B: {r: 0, g: 0.65534097, b: 0.81960785, a: 1}
+    - _Color_C: {r: 0, g: 0.5490196, b: 0.6980392, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _Direction_A: {r: 1, g: 0, b: 0, a: 0}
     - _Direction_B: {r: -1, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Foam_Color: {r: 2, g: 2, b: 2, a: 0}
-    - _Under_Water_A: {r: 0, g: 1.317647, b: 5.992157, a: 0.5019608}
-    - _Under_Water_B: {r: 0, g: 0.2198953, b: 1, a: 1}
+    - _Under_Water_A: {r: 0, g: 2.6980393, b: 5.992157, a: 0.9019608}
+    - _Under_Water_B: {r: 0, g: 0.03604858, b: 0.70710677, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7506094964774293222
 MonoBehaviour:
